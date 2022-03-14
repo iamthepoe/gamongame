@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Raleway', sans-serif;
+}
+
+:root {
+  --main: cyan;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.header{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 10vh;
+	background-color: black;
+	color: var(--main);
+	border-bottom: 1px solid white;
+}
+
+.game{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 100%;
+	height: 70vh;
+	background-color: black;
+	border-bottom: 1px solid white;
+}
+
+.game-result{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	color: var(--main);
+	width: 50%;
+	height: 30vh;
+	border: 5px solid var(--main);
+	background-color: black;
+}
+
+.game-result, p{
+	margin-top: 8px;
+}
+.game-input{
+	margin-top: 10px;
+	text-align: center;
+	font-size: 5vh;
+	border: 2px solid cyan;
+	color: cyan;
+	background-color: black;
+	width: 25%;
+	height: 10vh;
+}
+
+.info{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 100%;
+	height: 20vh;
+	color: cyan;
+	background-color: black;
+	border-bottom: 1px solid white;
+}

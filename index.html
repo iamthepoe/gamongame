@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>GamonGame</title>
+	<link rel="stylesheet" type="text/css" href="./assets/style.css">
+</head>
+<body>
+	<audio src="./assets/faustao-errou.mp3" id="myAudio"></audio>
+	<header class="header">
+		<h1 class="header-title">GamonGame</h1>
+	</header>
+	<section class="info">
+		<p>Um número (de 0 a 10000) foi sorteado. Descubra-o.</p>
+			<p style="color:red;">Vermelho == muito baixo</p>
+			<p style="color:yellow;">Amarelo == muito alto</p>
+			<p style="color:green;">Verde == equivalente</p>
+	</section>
+	<section class="game">
+		<div class="game-result" id="result">
+		</div>
+		<input type="number" class="game-input" id="usernumber">
+	</section>
+		
+	<script type="text/javascript" src="./assets/script.js"></script>
+</body>
+</html>
